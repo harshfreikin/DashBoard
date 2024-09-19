@@ -47,11 +47,17 @@ class DashboardScreen extends StatelessWidget {
                   },
                 ),
                 SizedBox(width: 16),
-                IconButton(
-                  icon: Icon(Icons.person_outline), // User Icon
-                  onPressed: () {
-                    // User profile action here
-                  },
+                CircleAvatar(
+                  radius: 25,
+                  backgroundColor: Colors.purple,
+                  child: Padding(
+                    padding: const EdgeInsets.all(0),
+                    child: ClipOval(
+                      child: Image.asset(
+                        "images/avtar3.png",
+                      ),
+                    ),
+                  ),
                 ),
               ],
             ),
