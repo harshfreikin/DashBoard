@@ -15,7 +15,7 @@ class SideMenu extends StatelessWidget {
               children: [
                 DrawerHeader(
                   child: Image.asset(
-                    "images/adstack.png",
+                    "images/co-vengers.png",
                     height: 20,
                   ),
                 ),
